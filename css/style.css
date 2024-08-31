@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: rgb(238, 231, 231);
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+}
+
+header nav ul {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul li {
+    font-size: 20px;
+    list-style: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+li button{
+    height: 35px;
+    width: 600px;
+    border-radius: 20px;
+    background-color: white;
+}
+.fa-solid {
+    color: black;
+}
+main{
+    display: flex;
+    position: fixed;
+}
+aside{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+main aside h4 {
+    justify-content: center;
+    align-items: center;
+}
+section{
+    margin-top: -20px;
+    margin-left: -200px;
+    background-color: white;
+    height: 60px;
+    width: 1500px;
+
+}
+section button {
+    height: 30px;
+    width: auto;
+    margin-top: 15px;
+    position: relative;
+    margin-left: 30px;
+    left: 300px;
+}
+button{
+    height: 30px;
+    width: 130px;
+}
+section button{
+    height: 30px;
+    width: auto;
+}
+.music{
+    margin-left: 250px;
+    margin-top: 70px;
+}
+iframe{
+    margin-left: 10px;
+    flex-wrap: wrap;
+    height: 250px;
+    width: 350px;
+    border-radius: 20px;
+}
+ion-icon{
+    font-size: 25px;
+    margin-left: 30px;
+}
+.music2{
+    margin-top: 20px;
+    margin-left: 250px;
+}
+.fa-solid{
+    font-size: 15px;
+    position: relative;
+    color: blue;
+    
+}
+aside button{
+    border-radius: 20px;
+}
+.I ion-icon{
+    color: red;
+}
+.music3{
+    margin-top: 20px;
+    margin-left: 250px;
+}
+
+.fa-youtube {
+    color: red;
+    font-size: 25px;
+}
